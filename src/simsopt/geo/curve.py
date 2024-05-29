@@ -905,6 +905,7 @@ def create_equally_spaced_windowpane_curves( ncurves, nfp, stellsym, R0, R1, Z0,
 
     return curves
 
+
 def new_windowpane_curve_on_max_error( surf, coils, a, order, nqpts=None, dofs=None, r=None):
     """
     Args:
